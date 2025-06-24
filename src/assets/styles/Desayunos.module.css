@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color: #FFFFF9;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    /* overflow-y: scroll; */
+    flex-direction: column;
+}
+
+.main-desayunos {
+    background-color: #FFFFF9;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.container {
+    width: 100vw;
+    /* height: 100vh; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.header-content {
+    background-color: #FFFFF9;
+    box-shadow: 0px 0px 4px #332b00;
+    padding: 4px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 67px;
+    height: 67px;
+    object-fit: cover;
+}
+
+.menu-toggle {
+    background-color: #F3F3E5;
+    border-radius: 100px;
+    padding: 4px 9px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-toggle:hover {
+    background-color: #c2a62c;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    color: #332B00;
+    font-size: 18px;
+}
+
+/* Breakfast Section */
+.breakfast-section {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.title {
+    margin: 110px 0 0 20px;
+    font-size: 28px;
+    color: #332b00;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #332b00;
+    margin-bottom: 15px;
+}
+
+/* .separator {
+    width: 93px;
+    height: 6px;
+    background-color: #d4af37;
+    border-radius: 100px;
+    margin-bottom: 30px;
+} */
+
+.menu-grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 17px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-card {
+    width: 164px;
+    height: 206px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(51, 43, 0, 0.2);
+}
+
+.menu-image {
+    width: 136px;
+    height: 113px;
+    margin: 14px auto;
+}
+
+.menu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #332b00;
+    padding: 0 20px;
+    line-height: 1.25;
+}
+
+/* Drinks Section */
+.drinksSection {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* h2 {
+    font-size: 28px;
+    color: #332b00;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+.drinks-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer {
+    bottom: 0;
+    width: 100vw;
+    height: 177px;
+    background-color: #1D8097;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px;
+    gap: 16px;
+}
+
+.footer-desayunos {
+    bottom: 0;
+    width: 100vw;
+    height: 177px;
+    background-color: #1D8097;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px;
+    gap: 16px;
+  }
+  
+
+.footer-title {
+    color: #d4af37;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-subtitle {
+    color: #f7efc8;
+    font-size: 14px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.copyright {
+    color: #f3f3e5;
+    font-size: 10px;
+    text-align: center;
+}

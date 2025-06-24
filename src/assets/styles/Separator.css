@@ -1,0 +1,25 @@
+.separator {
+    position: absolute;
+    width: 93px;
+    height: 6px;
+    top: 195px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffd700;
+    border-radius: 100px;
+    z-index: 1;
+}
+  
+  .separator.home {
+    position: absolute;
+    top: 195px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffd700;
+  }
+  
+  .separator.desayunos {
+    background-color: #d4af37;
+    margin-bottom: 30px;
+  }
+  

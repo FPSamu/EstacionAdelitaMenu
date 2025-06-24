@@ -1,0 +1,357 @@
+.menu-display {
+    margin-top: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-title{
+    background-color: #1D1905;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #A68826;
+    padding: 4px 8xp;
+    width: 90%;
+    border-radius: 100px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.disclaimer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 50px auto;
+    gap: 15px;
+    margin-bottom: 54px;
+    z-index: 1;
+}
+
+.disclaimer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-text {
+    color: #F7EFC8;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.disclaimer-price {
+    color: #D4AF37;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pizzas-info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 250px auto -200px auto;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 12px 0px;
+    align-items: center;
+    gap: 24px;
+}
+
+.pizzas-info img {
+    width: 118px;
+    height: 118px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+}
+
+.pizzas-info-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.pizzas-info p {
+    color: #F7EFC8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    min-width: 160px;
+    max-width: 160px;
+    white-space: normal;
+}
+
+.pizzas-info span {
+    background-color: #F7EFC8;
+    width: 1px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.bebidas-buttons {
+    display: flex;
+    margin: 250px auto -200px auto;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 20px;
+}
+
+.panaderia-buttons {
+    display: flex;
+    margin: 250px auto -200px auto;
+    justify-content: center;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 20px;
+}
+
+.category-button {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-decoration: none;
+    color: #F7EFC8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.category-button:hover {
+    color: #F7EFC8;
+    text-decoration: none;
+}
+
+.category-button p {
+    color: #F7EFC8;
+}
+
+.category-button:hover p {
+    color: #F7EFC8;
+}
+
+.screen-icon {
+    width: 81px;
+    aspect-ratio: 1;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1905;
+}
+
+.active {
+    background-color: #F7EFC8;
+}
+
+.image-papasgajo {
+    position: absolute;
+    z-index: 0;
+    margin-top: -80%;
+    margin-left: 120px;
+    width: 421.426px;
+    height: 449.116px;
+    transform: rotate(32.625deg);
+    flex-shrink: 0;
+    aspect-ratio: 421.43/449.12;
+    opacity: 0.5;
+}
+
+.image-ensalada {
+    position: absolute;
+    z-index: 0;
+    margin-top: 130%;
+    margin-left: -135px;
+    width: 640.94px;
+    height: 540.81px;
+    transform: rotate(35.201deg);
+    flex-shrink: 0;
+    aspect-ratio: 640.94/540.81;
+    opacity: 0.5;
+}
+
+.image-lasgna {
+    position: absolute;
+    transform: scaleX(-1);
+    z-index: 0;
+    margin-top: -50%;
+    margin-left: -135px;
+    width: 423.758px;
+    height: 417.967px;
+    flex-shrink: 0;
+    aspect-ratio: 423.76/417.97;
+    opacity: 0.5;
+}
+
+.image-wok {
+    position: absolute;
+    z-index: 0;
+    margin-top: 120%;
+    margin-left: 100px;
+    width: 435.727px;
+    height: 380px;
+    flex-shrink: 0;
+    aspect-ratio: 435.73/380.00;
+    opacity: 0.5;
+}
+
+.image-pizza {
+    position: absolute;
+    z-index: 0;
+    margin-left: 100px;
+    width: 424.103px;
+    height: 527px;
+    flex-shrink: 0;
+    aspect-ratio: 424.10/527.00;
+    opacity: 0.5;
+}
+
+.image-pizza2 {
+    position: absolute;
+    z-index: 0;
+    margin-top: 160%;
+    transform: scaleY(-1);
+    width: 424.103px;
+    height: 527px;
+    flex-shrink: 0;
+    aspect-ratio: 424.10/527.00;
+    opacity: 0.5;
+}
+
+.image-panino {
+    position: absolute;
+    z-index: 0;
+    margin-top: -10%;
+    margin-left: 190px;
+    transform: scaleX(-1);
+    width: 574.131px;
+    height: 421.928px;
+    flex-shrink: 0;
+    aspect-ratio: 574.13/421.93;
+    opacity: 0.5;
+}
+
+.image-panino2 {
+    position: absolute;
+    z-index: 0;
+    margin-top: 180%;
+    margin-left: -100px;
+    transform: rotate(300deg);
+    width: 410.884px;
+    height: 417.047px;
+    flex-shrink: 0;
+    aspect-ratio: 410.88/417.05;
+    opacity: 0.5;
+}
+
+.image-bebidasfrias {
+    position: absolute;
+    z-index: 0;
+    margin-top: -60%;
+    margin-left: -40px;
+    width: 422px;
+    height: 791px;
+    flex-shrink: 0;
+    aspect-ratio: 422/791;
+    opacity: 0.5;
+}
+
+.image-bebidascalientes {
+    position: absolute;
+    z-index: 0;
+    margin-top: -60%;
+    margin-left: 30px;
+    opacity: 0.5;
+}
+
+.image-bebidascalientes {
+    position: absolute;
+    z-index: 0;
+    margin-top: -60%;
+    margin-left: 30px;
+    opacity: 0.5;
+}
+
+.image-tizanas {
+    position: absolute;
+    z-index: 0;
+    margin-top: -60%;
+    opacity: 0.5;
+}
+
+.image-macarron {
+    position: absolute;
+    z-index: 0;
+    margin-top: -100%;
+    margin-left: 220px;
+    opacity: 0.5;
+}
+
+.image-macarron2 {
+    position: absolute;
+    z-index: 0;
+    margin-top: -30%;
+    margin-left: -50px;
+    opacity: 0.5;
+}
+
+.image-galletas {
+    position: absolute;
+    z-index: 0;
+    margin-top: -30%;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.image-roles {
+    position: absolute;
+    z-index: 0;
+    margin-top: 150%;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.image-cubilete {
+    position: absolute;
+    z-index: 0;
+    margin-top: 350%;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.image-delisete {
+    position: absolute;
+    z-index: 0;
+    margin-top: -100%;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.image-chapata {
+    position: absolute;
+    z-index: 0;
+    margin-top: 80%;
+    margin-left: 150px;
+    opacity: 0.5;
+}
