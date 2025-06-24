@@ -5,6 +5,9 @@ import logo from "../assets/estacionAdelitaDark.png"
 import Separator from "../components/Separator"
 import ProductDesayunoCard from "../components/ProductDesayunoCard"
 import pochadosPetra from "../assets/PochadosPetra.png"
+import panFranco from "../assets/panFranco.png"
+import omelette from "../assets/omelette.png"
+import fritata from "../assets/fritata.png"
 import styles from "../assets/styles/Desayunos.module.css";
 import React, { useState } from "react";
 import Modal from "../components/Modal"
@@ -13,10 +16,10 @@ export default function Desayunos() {
     const comidas = [
         {title: "Pochados Petra", desc: "Huevos pochados con papa y tocino al sartén, bañados en una rica salsa cremosa de chipotle y betabel.", precio: "$145", image: pochadosPetra},
         {title: "Pochados María Sabina", desc: "Huevos pochados montados sobre champiñones al queso azul, una combinación divina.", precio: "$145"},
-        {title: "Frittata Toscana", desc: "Tres huevos, requesón, champiñones y espinacas, un clásico italiano.", precio: "$145"},
-        {title: "Omelette New York", desc: "Dos huevos, jamón York y queso mozzarella, una opción clásica y deliciosa.", precio: "$125"},
+        {title: "Frittata Toscana", desc: "Tres huevos, requesón, champiñones y espinacas, un clásico italiano.", precio: "$145", image: fritata},
+        {title: "Omelette New York", desc: "Dos huevos, jamón York y queso mozzarella, una opción clásica y deliciosa.", precio: "$125", image: omelette},
         {title: "Tosta Esmeralda", desc: "Dos huevos a elección (pochados, revueltos o estrellados) sobre pan brioche y aguacate, una opción saludable y sabrosa.", precio: "$125"},
-        {title: "Pan Franco-Brulé", desc: "Un clásico francés con un toque de Estación Adelita.", precio: "$125"},
+        {title: "Pan Franco-Brulé", desc: "Un clásico francés con un toque de Estación Adelita.", precio: "$125", image: panFranco},
         {title: "Parfait de Frutos Rojos", desc: "Una deliciosa combinación de chía, yogurt griego, frutos rojos y nueces.", precio: "$85"},
     ]
     const bebidas = [
