@@ -93,7 +93,7 @@ export default function Desayunos() {
                     )}
 
                     <section className={styles["drinks-section"]}>
-                        <h2 className={styles.title}>BEBIDAS</h2>
+                        <h2 className={styles["title-bebida"]}>BEBIDAS</h2>
                         <div className={styles["drinks-grid"]}>
                             {bebidas.map((bebida, index) => (
                                 <ProductDesayunoCard 
