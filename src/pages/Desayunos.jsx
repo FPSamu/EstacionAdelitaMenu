@@ -8,6 +8,10 @@ import pochadosPetra from "../assets/PochadosPetra.png"
 import panFranco from "../assets/panFranco.png"
 import omelette from "../assets/omelette.png"
 import fritata from "../assets/fritata.png"
+import pochadosMariaSabina from "../assets/pochadosMariaSabina.png"
+import parfaitFrutosRojos from "../assets/parfaitFrutosRojos.png"
+import jugoNaranja from "../assets/jugoNaranja.png"
+import licuadoVerde from "../assets/licuadoVerde.png"
 import styles from "../assets/styles/Desayunos.module.css";
 import React, { useState } from "react";
 import Modal from "../components/Modal"
@@ -15,16 +19,16 @@ import Modal from "../components/Modal"
 export default function Desayunos() {
     const comidas = [
         {title: "Pochados Petra", desc: "Huevos pochados con papa y tocino al sartén, bañados en una rica salsa cremosa de chipotle y betabel.", precio: "$145", image: pochadosPetra},
-        {title: "Pochados María Sabina", desc: "Huevos pochados montados sobre champiñones al queso azul, una combinación divina.", precio: "$145"},
+        {title: "Pochados María Sabina", desc: "Huevos pochados montados sobre champiñones al queso azul, una combinación divina.", precio: "$145", image: pochadosMariaSabina},
         {title: "Frittata Toscana", desc: "Tres huevos, requesón, champiñones y espinacas, un clásico italiano.", precio: "$145", image: fritata},
         {title: "Omelette New York", desc: "Dos huevos, jamón York y queso mozzarella, una opción clásica y deliciosa.", precio: "$125", image: omelette},
         {title: "Tosta Esmeralda", desc: "Dos huevos a elección (pochados, revueltos o estrellados) sobre pan brioche y aguacate, una opción saludable y sabrosa.", precio: "$125"},
         {title: "Pan Franco-Brulé", desc: "Un clásico francés con un toque de Estación Adelita.", precio: "$125", image: panFranco},
-        {title: "Parfait de Frutos Rojos", desc: "Una deliciosa combinación de chía, yogurt griego, frutos rojos y nueces.", precio: "$85"},
+        {title: "Parfait de Frutos Rojos", desc: "Una deliciosa combinación de chía, yogurt griego, frutos rojos y nueces.", precio: "$85", image: parfaitFrutosRojos},
     ]
     const bebidas = [
-        {title: "Jugo de Naranja", desc: "Jugo de naranja natural y fresco.", precio: "$45"},
-        {title: "Licuado Verde", desc: "Una refrescante mezcla de pepino, apio, espinaca y jugo de naranja.", precio: "$50"},
+        {title: "Jugo de Naranja", desc: "Jugo de naranja natural y fresco.", precio: "$45", image: jugoNaranja},
+        {title: "Licuado Verde", desc: "Una refrescante mezcla de pepino, apio, espinaca y jugo de naranja.", precio: "$50", image: licuadoVerde},
     ]
 
     const [modalAbierto, setModalAbierto] = useState(false);
@@ -70,8 +74,6 @@ export default function Desayunos() {
                             <ProductDesayunoCard
                                 key={index}
                                 title={comida.title}
-                                desc={comida.desc}
-                                precio={comida.precio}
                                 image={comida.image}
                                 onClick={() => abrirModal(comida)}
                             />
@@ -99,8 +101,6 @@ export default function Desayunos() {
                                 <ProductDesayunoCard 
                                     key={index}
                                     title={bebida.title}
-                                    desc={bebida.desc}
-                                    precio={bebida.precio}
                                     image={bebida.image}
                                     onClick={() => abrirModal(bebida)}
                                 />
