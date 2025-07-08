@@ -12,6 +12,7 @@ import pochadosMariaSabina from "../assets/pochadosMariaSabina.png"
 import parfaitFrutosRojos from "../assets/parfaitFrutosRojos.png"
 import jugoNaranja from "../assets/jugoNaranja.png"
 import licuadoVerde from "../assets/licuadoVerde.png"
+import tostaEsmeralda from "../assets/tostaEsmeralda.png"
 import styles from "../assets/styles/Desayunos.module.css";
 import React, { useState } from "react";
 import Modal from "../components/Modal"
@@ -22,7 +23,7 @@ export default function Desayunos() {
         {title: "Pochados María Sabina", desc: "Huevos pochados montados sobre champiñones al queso azul, una combinación divina.", precio: "$145", image: pochadosMariaSabina},
         {title: "Frittata Toscana", desc: "Tres huevos, requesón, champiñones y espinacas, un clásico italiano.", precio: "$145", image: fritata},
         {title: "Omelette New York", desc: "Dos huevos, jamón York y queso mozzarella, una opción clásica y deliciosa.", precio: "$125", image: omelette},
-        {title: "Tosta Esmeralda", desc: "Dos huevos a elección (pochados, revueltos o estrellados) sobre pan brioche y aguacate, una opción saludable y sabrosa.", precio: "$125"},
+        {title: "Tosta Esmeralda", desc: "Dos huevos a elección (pochados, revueltos o estrellados) sobre pan brioche y aguacate, una opción saludable y sabrosa.", precio: "$125", image: tostaEsmeralda},
         {title: "Pan Franco-Brulé", desc: "Un clásico francés con un toque de Estación Adelita.", precio: "$125", image: panFranco},
         {title: "Parfait de Frutos Rojos", desc: "Una deliciosa combinación de chía, yogurt griego, frutos rojos y nueces.", precio: "$85", image: parfaitFrutosRojos},
     ]
