@@ -34,7 +34,7 @@ export default function Especialidades() {
     {title: "Pasta Rosa", desc: "Pasta corta, salsa rosa y queso parmesano.", price: "$75"},
     {title: "Lasaña Clásica", desc: "Carne de res y cerdo.", price: "$115"},
     {title: "Pesto Cremoso", desc: "Pasta corta, salsa de albahaca cremosa y queso parmesano.", price: "$75"},
-    {title: "Wok oriental", desc: "Arroz, cebolla, Calacita, zanahorita, champiñon pimienta morrón y brócoli.", price: "$85"},
+    {title: "Wok oriental", desc: "Arroz, cebolla, Calabacita, zanahoria, champiñon pimienta morrón y brócoli.", price: "$85"},
     {title: "Salmón al horno", desc: "Con vegetales rostisados.", price: "$255"},
 ]
 

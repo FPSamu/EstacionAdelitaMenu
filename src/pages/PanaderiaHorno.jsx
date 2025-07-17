@@ -36,7 +36,7 @@ export default function PanaderiaHorno() {
   const products = [
     {title: "Pastel de Zanahoria", price: "$32 -- Rebanada", price2: "$320 -- Entero"},
     {title: "Pastel de Chocolate", price: "$45 -- Rebanada", price2: "$450 -- Entero"},
-    {title: "Pastel de Red-Velvet", price: "$45 -- Rebanada", price2: "$450 -- Rntero"},
+    {title: "Pastel de Red-Velvet", price: "$45 -- Rebanada", price2: "$450 -- Entero"},
     {title: "Pastel Chocoflan", price: "$45 -- Rebanada", price2: "$450 -- Entero"},
     {title: "Niño envuelto", price: "$28 -- Rebanada", price2: "$400 -- Entero"},
     {title: "Panqué de Platano con nuez", price: "$20 -- Rebanada", price2: "$160 -- Entero"},
