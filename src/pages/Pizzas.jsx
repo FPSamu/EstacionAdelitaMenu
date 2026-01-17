@@ -30,12 +30,12 @@ export default function Pizzas() {
   const secondaryClass = "category-menu"
 
   const products = [
-    {title: "Margherita", desc: "Salsa, queso y pesto.", price: "$160"},
-    {title: "Pepperoni", desc: "Salsa, queso y pepperoni.", price: "$170"},
-    {title: "Hawaiana", desc: "Salsa, queso, jamón y piña.", price: "$180"},
-    {title: "Toscana", desc: "Salsa, queso, jamón y champiñon.", price: "$180"},
-    {title: "Serrana", desc: "Salsa, queso y jamón serrano.", price: "$196"},
-    {title: "Especial al gusto", desc: "", price: "$205"},
+    {title: "Margherita", desc: "Salsa, queso y pesto.", price: "$180"},
+    {title: "Pepperoni", desc: "Salsa, queso y pepperoni.", price: "$190"},
+    {title: "Hawaiana", desc: "Salsa, queso, jamón y piña.", price: "$200"},
+    {title: "Toscana", desc: "Salsa, queso, jamón y champiñon.", price: "$200"},
+    {title: "Serrana", desc: "Salsa, queso y jamón serrano.", price: "$215"},
+    {title: "Especial al gusto", desc: "", price: "$225"},
 ]
 
 
@@ -92,4 +92,5 @@ export default function Pizzas() {
             <Footer />
         </main>
     );
+
 }
