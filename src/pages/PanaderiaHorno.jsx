@@ -34,14 +34,14 @@ export default function PanaderiaHorno() {
   const secondaryClass = "category-menu"
 
   const products = [
-    {title: "Pastel de Zanahoria", price: "$32 -- Rebanada", price2: "$320 -- Entero"},
+    {title: "Pastel de Zanahoria", price: "$42 -- Rebanada", price2: "$420 -- Entero"},
     {title: "Pastel de Chocolate", price: "$45 -- Rebanada", price2: "$450 -- Entero"},
     {title: "Pastel de Red-Velvet", price: "$45 -- Rebanada", price2: "$450 -- Entero"},
     {title: "Pastel Chocoflan", price: "$45 -- Rebanada", price2: "$450 -- Entero"},
-    {title: "Niño envuelto", price: "$28 -- Rebanada", price2: "$400 -- Entero"},
+    {title: "Niño envuelto", price: "$30 -- Rebanada", price2: "$430 -- Entero"},
     {title: "Panqué de Platano con nuez", price: "$20 -- Rebanada", price2: "$160 -- Entero"},
-    {title: "Pay de Requesón con Mermelada de Frutos Rojos", price: "$30 -- Rebanada", price2: "$300 -- Entero"},
-    {title: "Pay de Requesón con Mermelada de Guayaba", price: "$30 -- Rebanada", price2: "$300 -- Entero"},
+    {title: "Pay de Requesón con Mermelada de Frutos Rojos", price: "$42 -- Rebanada", price2: "$420 -- Entero"},
+    {title: "Pay de Requesón con Mermelada de Guayaba", price: "42 -- Rebanada", price2: "420 -- Entero"},
     {title: "Choux", price: "$15"},
     {title: "Brownie Alemán", price: "$40",},
     {title: "Eclair", price: "$25",},
@@ -130,4 +130,5 @@ export default function PanaderiaHorno() {
             <Footer />
         </main>
     );
+
 }
